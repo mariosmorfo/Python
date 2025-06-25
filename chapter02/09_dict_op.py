@@ -26,3 +26,5 @@ print(f"After deleting key 1 {products}")
 removed_item = products.pop(3)
 print(f"removed item: {removed_item}")
 print(f"after removal: {products}")
+
+#Delete: remove the 'last' inserted item with popitem()
