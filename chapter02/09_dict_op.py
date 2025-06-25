@@ -22,3 +22,7 @@ print(product_10)
 
 del products[1]
 print(f"After deleting key 1 {products}")
+
+removed_item = products.pop(3)
+print(f"removed item: {removed_item}")
+print(f"after removal: {products}")
