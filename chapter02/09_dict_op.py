@@ -18,4 +18,4 @@ print(f"Dict after insertion: {products}")
 # print(product_10)
 
 product_10 = products.get(10, "Product not found")
-print(product_)
+print(product_10)
