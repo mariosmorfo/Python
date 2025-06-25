@@ -17,5 +17,8 @@ print(f"Dict after insertion: {products}")
 # product_10 = products[10]
 # print(product_10)
 
-product_10 = products.get(10, "Product not found")
+product_10 = products.get(10, "Out of stock")
 print(product_10)
+
+del products[1]
+print(f"After deleting key 1 {products}")
