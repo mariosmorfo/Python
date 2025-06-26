@@ -28,3 +28,24 @@ print(f"removed item: {removed_item}")
 print(f"after removal: {products}")
 
 #Delete: remove the 'last' inserted item with popitem()
+key, value = products.popitem()
+print(f"Key:{key}, Value:{value}")
+
+print(products)
+
+key_to_check=2
+
+if key_to_check in products:
+    print(f"Key: {key_to_check} exists")
+else:
+    print(f"Key: {key_to_check} does not exists")
+
+# iterate
+for key in products.keys():
+    print(key, ":", products[key])
+
+for values in products.values():
+  print(values)
+
+for key, value in products.items():
+    print(f"{key}:{value}")
