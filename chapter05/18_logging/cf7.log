@@ -1,0 +1,10 @@
+2025-07-07 19:04:28,981:ERROR:search-app:Error occured: 200 is not in list
+Traceback (most recent call last):
+  File "C:\Users\mario\OneDrive\Υπολογιστής\Python-CF7\chapter05\18_logging\18_logging_app.py", line 26, in main
+    index = my_nums.index(num_to_find)
+ValueError: 200 is not in list
+2025-07-07 19:04:44,599:ERROR:search-app:Error occured: 2.3 is not in list
+Traceback (most recent call last):
+  File "C:\Users\mario\OneDrive\Υπολογιστής\Python-CF7\chapter05\18_logging\18_logging_app.py", line 25, in main
+    index = my_nums.index(num_to_find)
+ValueError: 2.3 is not in list
